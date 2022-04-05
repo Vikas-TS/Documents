@@ -1,0 +1,38 @@
+Step 1 :ssh icfuser@172.21.156.66
+
+
+
+Step 2 :Crisil@321
+
+
+
+Step 3: sudo -i
+
+
+
+step 4: Crisil@321
+
+
+
+Step 5 :cd /opt/uat-publish/crx-quickstart/logs
+
+
+
+Step 6 ls -lrth
+
+
+
+Step 7: tail -100f error.log
+
+
+
+Step 8: tail -100f error.log.2020-04-01 (for date wise logs)
+
+
+
+Step 9: History
+
+
+
+
+bugs/forget_passwors_task/UAT

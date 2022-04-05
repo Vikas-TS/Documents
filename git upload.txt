@@ -1,0 +1,25 @@
+
+/* for creating new repository as well as update your repository*/
+
+
+git init
+git add .
+git commit -m "message"
+git remote add origin git@github.com:Freshers-Bootcamp/Vikas-Java_assessment1.git
+git branch -M main
+git push -u origin main
+
+
+
+git remote add origin git@github.com:Vikas-TS/AEM-Project.git
+
+
+
+
+fix/careerBannerUIResp_UAT
+
+release/QA_main
+
+
+
+

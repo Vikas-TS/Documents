@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery table2excel plugin</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js">
+    </script>
+    <!-- <script src="jquery.table2excel.js"></script> -->
+</head>
+
+<body>
+    <h1 style="color:green">GeeksForGeeks</h1>
+    <b>jQuery table2excel plugin </b>
+    <p></p>
+    <table id="myTable" class="table2excel">
+        <tr>
+            <th>Company</th>
+            <th>Name</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>IBM</td>
+            <td>Maria</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>TCS</td>
+            <td>Yen Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Microsoft</td>
+            <td>Roland</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+            <td>Wipro</td>
+            <td>Helen</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Samsung</td>
+            <td>Yoshwini</td>
+            <td>Canada</td>
+        </tr>
+        <tr>
+            <td>Virtusa</td>
+            <td>Rovelli</td>
+            <td>Italy</td>
+        </tr>
+    </table>
+
+    <script>
+        $(function() {
+            $("#myTable").table2excel({
+                name: "Backup file for HTML content",
+
+                // include extension also
+                filename: "GFGFile.xls",
+
+                // 'True' is set if background and font colors preserved
+                preserveColors: false
+            });
+
+
+        });
+    </script>
+</body>
+
+</html>

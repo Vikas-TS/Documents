@@ -1,0 +1,50 @@
+2022-03-12 15:37:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdateScheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-12 15:38:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdateScheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-12 15:38:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdateScheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-12 15:39:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdateScheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-12 15:39:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdateScheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-12 15:40:00.000 INFO [com.crisil.www.commons.core.solr.service.SolrServiceImpl] queries in findDocuments method=null
+2022-03-12 15:40:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdateScheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-12 15:40:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdateScheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-12 15:41:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdateScheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-12 15:41:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdateScheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-12 15:42:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdateScheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-12 15:42:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdateScheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-12 15:42:02.390 INFO [com.crisil.www.core.services.general.impl.RecaptchaConfigurationsImpl] Captcha Disabled false
+2022-03-12 15:42:02.390 INFO [com.crisil.www.core.services.general.impl.RecaptchaConfigurationsImpl] CCID mZsTknY88olMnu98GnH8BA==
+2022-03-12 15:42:02.390 INFO [com.crisil.www.core.services.general.impl.RecaptchaConfigurationsImpl] CCKUUID e5c57aa1-9817-4147-a2c5-51042769e128
+2022-03-12 15:42:02.390 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl]
+ Entered into decrypt with agr{}input=mZsTknY88olMnu98GnH8BA== ,cpText=e5c57aa1-9817-4147-a2c5-51042769e128
+
+2022-03-12 15:42:02.393 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl]
+ After decryption input =AtdRk2
+
+2022-03-12 15:42:02.393 INFO [com.crisil.www.core.services.general.impl.RecaptchaConfigurationsImpl]
+ Captcha validation inputs:userIn=AtdRk2 , decryptKey=AtdRk2
+
+2022-03-12 15:42:02.405 INFO [com.crisil.www.core.content.user.usermanagement.impl.CrisilJcrUserManagementServiceImpl]
+ :::::: Generated  without encryption activationCode=  17ea7456-d485-426f-8afd-d34998dec3e2 :::::::
+
+2022-03-12 15:42:02.405 INFO [com.crisil.www.core.content.user.usermanagement.impl.CrisilJcrUserManagementServiceImpl] :::: Encrypting the token for email :::vikas.ts@icfnext.com
+2022-03-12 15:42:02.407 INFO [com.crisil.www.core.content.user.usermanagement.impl.CrisilJcrUserManagementServiceImpl]
+ :::: Encrypted activationToken= lI83PCrgnT2JuF%2FL5w4dbHXKjio3GEOJct8fJAXovqswx0Zxz3Y5X%2FzceQ%2BPO4hYP7rB4ULmWMrq6yC9DEBZCA%3D%3D :::::::::::
+
+2022-03-12 15:42:02.408 INFO [com.crisil.www.core.content.user.usermanagement.impl.CrisilJcrUserManagementServiceImpl]
+ :::::::::::Encrypted encryptedRedirectionPath = http://172.21.156.67/en/home.html :::::::::
+
+2022-03-12 15:42:02.408 INFO [com.crisil.www.core.content.user.usermanagement.impl.CrisilJcrUserManagementServiceImpl]
+ :::: sendActivationCodeByMail activationLink=http://172.21.156.67/content/crisil/en/home/reset-password.html?activationToken=lI83PCrgnT2JuF%252FL5w4dbHXKjio3GEOJct8fJAXovqswx0Zxz3Y5X%252FzceQ%252BPO4hYP7rB4ULmWMrq6yC9DEBZCA%253D%253D&redirectionPage=http://172.21.156.67/en/home.html :::::::
+
+2022-03-12 15:42:02.409 INFO [com.crisil.www.core.content.user.usermanagement.impl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, logo = http://172.21.156.67/etc/designs/crisil-www/clientlib-all/images/mailer/CRISIL-logo.jpg
+2022-03-12 15:42:02.409 INFO [com.crisil.www.core.content.user.usermanagement.impl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, fbLogo = http://172.21.156.67/etc/designs/crisil-www/clientlib-all/images/mailer/facebook-n.png
+2022-03-12 15:42:02.409 INFO [com.crisil.www.core.content.user.usermanagement.impl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, twitterLogo = http://172.21.156.67/etc/designs/crisil-www/clientlib-all/images/mailer/twitter-n.png
+2022-03-12 15:42:02.409 INFO [com.crisil.www.core.content.user.usermanagement.impl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, liLogo = http://172.21.156.67/etc/designs/crisil-www/clientlib-all/images/mailer/linkedin-n.png
+2022-03-12 15:42:02.409 INFO [com.crisil.www.core.content.user.usermanagement.impl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, youtubeLogo = http://172.21.156.67/etc/designs/crisil-www/clientlib-all/images/mailer/youtube-n.png
+2022-03-12 15:42:02.409 INFO [com.crisil.www.core.content.user.usermanagement.impl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, ourAnalysisLink = http://172.21.156.67/en/home/our-analysis.html
+2022-03-12 15:42:02.409 INFO [com.crisil.www.core.content.user.usermanagement.impl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, ourEventsLink = http://172.21.156.67/en/home/events.html
+2022-03-12 15:42:02.409 INFO [com.crisil.www.core.content.user.usermanagement.impl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, mutualFundLink = http://172.21.156.67/en/home/what-we-do/financial-products/mf-ranking.html
+2022-03-12 15:42:02.409 INFO [com.crisil.www.core.content.user.usermanagement.impl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, crisilHomeLink = http://172.21.156.67/en/home.html
+2022-03-12 15:42:02.409 INFO [com.crisil.www.core.content.user.usermanagement.impl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, crisilTvLink = http://172.21.156.67/en/home/our-analysis/crisil-tv.html
+2022-03-12 15:42:02.622 INFO [com.crisil.www.commons.core.jobs.email.consumers.EmailJobConsumer] EMAIL was  sent to ....[vikas.ts@icfnext.com]
+^C
+[icfuser@mumchaem09 logs]$

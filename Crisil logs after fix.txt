@@ -1,0 +1,115 @@
+2022-03-17 15:10:55.656 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl]
+::::::: Logged in UsedId=anonymous and requested userId=vikas.ts@icfnext.com :::  :::::::
+
+2022-03-17 15:10:55.656 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl] result:false
+2022-03-17 15:11:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdate  Scheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-17 15:11:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdate  Scheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-17 15:12:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdate  Scheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-17 15:12:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdate  Scheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-17 15:13:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdate  Scheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-17 15:13:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdate  Scheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-17 15:13:24.777 INFO [com.crisil.www.core.services.general.impl.Recaptch  aConfigurationsImpl] Captcha Disabled false
+2022-03-17 15:13:24.777 INFO [com.crisil.www.core.services.general.impl.Recaptch  aConfigurationsImpl] CCID MktFtKa+BtTNb2WNnL62cg==
+2022-03-17 15:13:24.777 INFO [com.crisil.www.core.services.general.impl.Recaptch  aConfigurationsImpl] CCKUUID 256b090a-1b5a-49cf-b922-0544d2ed36ef
+2022-03-17 15:13:24.777 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl  ]
+ Entered into decrypt with agr{}input=MktFtKa+BtTNb2WNnL62cg== ,cpText=256b090a-  1b5a-49cf-b922-0544d2ed36ef
+
+2022-03-17 15:13:24.779 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl  ]
+ After decryption input =WscJCj
+
+2022-03-17 15:13:24.779 INFO [com.crisil.www.core.services.general.impl.Recaptch  aConfigurationsImpl]
+ Captcha validation inputs:userIn=WscJCj , decryptKey=WscJCj
+
+2022-03-17 15:13:24.791 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl]
+ :::::: Generated  without encryption activationCode=  fa12e4ba-3c39-4d3b-99d2-f  8d3d4df89d9 :::::::
+
+2022-03-17 15:13:24.792 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl] :::: Encrypting the token for email :::vi  kas.ts@icfnext.com
+2022-03-17 15:13:24.794 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl]
+ :::: Encrypted activationToken= lI83PCrgnT2JuF%2FL5w4dbHays8CxXNy1wlORmJ%2Bt2NZ  e6op2TT%2Fw3A7zp8d8N5oC3ctxYY1WLgAa9Vhszmx0Bw%3D%3D :::::::::::
+
+2022-03-17 15:13:24.794 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl]
+ :::::::::::Encrypted encryptedRedirectionPath = /content/crisil/en/home.html ::  :::::::
+
+2022-03-17 15:13:24.795 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl]
+ :::: sendActivationCodeByMail activationLink=http://172.21.156.67/content/crisi  l/en/home/reset-password.html?activationToken=lI83PCrgnT2JuF%252FL5w4dbHays8CxXN  y1wlORmJ%252Bt2NZe6op2TT%252Fw3A7zp8d8N5oC3ctxYY1WLgAa9Vhszmx0Bw%253D%253D&redir  ectionPage=/content/crisil/en/home.html :::::::
+
+2022-03-17 15:13:24.796 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, lo  go = http://172.21.156.67/etc/designs/crisil-www/clientlib-all/images/mailer/CRI  SIL-logo.jpg
+2022-03-17 15:13:24.796 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, fb  Logo = http://172.21.156.67/etc/designs/crisil-www/clientlib-all/images/mailer/f  acebook-n.png
+2022-03-17 15:13:24.796 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, tw  itterLogo = http://172.21.156.67/etc/designs/crisil-www/clientlib-all/images/mai  ler/twitter-n.png
+2022-03-17 15:13:24.796 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, li  Logo = http://172.21.156.67/etc/designs/crisil-www/clientlib-all/images/mailer/l  inkedin-n.png
+2022-03-17 15:13:24.796 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, yo  utubeLogo = http://172.21.156.67/etc/designs/crisil-www/clientlib-all/images/mai  ler/youtube-n.png
+2022-03-17 15:13:24.796 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, ou  rAnalysisLink = http://172.21.156.67/en/home/our-analysis.html
+2022-03-17 15:13:24.796 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, ou  rEventsLink = http://172.21.156.67/en/home/events.html
+2022-03-17 15:13:24.796 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, mu  tualFundLink = http://172.21.156.67/en/home/what-we-do/financial-products/mf-ran  king.html
+2022-03-17 15:13:24.796 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, cr  isilHomeLink = http://172.21.156.67/en/home.html
+2022-03-17 15:13:24.796 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, cr  isilTvLink = http://172.21.156.67/en/home/our-analysis/crisil-tv.html
+2022-03-17 15:13:25.109 INFO [com.crisil.www.commons.core.jobs.email.consumers.E  mailJobConsumer] EMAIL was  sent to ....[vikas.ts@icfnext.com]
+2022-03-17 15:14:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdate  Scheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-17 15:14:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdate  Scheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-17 15:14:31.917 INFO [com.crisil.www.core.content.header.Header]
+***********  Entered into Header : init() *****************
+
+2022-03-17 15:14:31.921 INFO [com.crisil.www.core.content.header.Header]
+ *********** Exited from Header : init() ****************
+
+2022-03-17 15:14:33.249 INFO [com.crisil.www.commons.core.solr.masterall.impl.So  lrMasterDataSyncImpl]  ***** Entered into SolrMasterDataSyncImpl:searchForAutoSu  ggestion *******
+2022-03-17 15:14:33.249 INFO [com.crisil.www.commons.core.solr.service.SolrServi  ceImpl] queries in findDocuments method=[*:*]
+2022-03-17 15:14:33.258 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl]
+verifyActivationCode before decryptCode of activationToken =lI83PCrgnT2JuF%252FL  5w4dbHays8CxXNy1wlORmJ%252Bt2NZe6op2TT%252Fw3A7zp8d8N5oC3ctxYY1WLgAa9Vhszmx0Bw%2  53D%253D ::::::::
+
+2022-03-17 15:14:33.258 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl  ]
+ @@@@@@ Input  Before url decode =lI83PCrgnT2JuF%252FL5w4dbHays8CxXNy1wlORmJ%252  Bt2NZe6op2TT%252Fw3A7zp8d8N5oC3ctxYY1WLgAa9Vhszmx0Bw%253D%253D   @@@@@@@@@@@
+
+2022-03-17 15:14:33.258 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl  ]
+ ###### Input After  url decode = lI83PCrgnT2JuF/L5w4dbHays8CxXNy1wlORmJ+t2NZe6o  p2TT/w3A7zp8d8N5oC3ctxYY1WLgAa9Vhszmx0Bw==  ##########
+
+2022-03-17 15:14:33.260 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl  ]
+ ************ Input  after decryption =vikas.ts@icfnext.com:fa12e4ba-3c39-4d3b-9  9d2-f8d3d4df89d9   ****************
+
+2022-03-17 15:14:33.260 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl]
+verifyActivationCode after decryptCode of activationToken =vikas.ts@icfnext.com:  fa12e4ba-3c39-4d3b-99d2-f8d3d4df89d9 ::::::::
+
+2022-03-17 15:14:33.262 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl] verifiedUser::vikas.ts@icfnext.com::/home  /users/U/UPNQ8u4kOW37X1oB1yK8
+2022-03-17 15:14:33.262 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl] verifyPasswordResetToken result::true
+2022-03-17 15:14:33.275 INFO [com.crisil.www.core.content.header.Header]
+***********  Entered into Header : init() *****************
+
+2022-03-17 15:14:33.280 INFO [com.crisil.www.core.content.header.Header]
+ *********** Exited from Header : init() ****************
+
+2022-03-17 15:14:39.621 INFO [com.crisil.www.core.content.header.SearchAutoSugge  stion] Start : In SearchAutoSuggestion,methode getSuggestList
+2022-03-17 15:14:39.621 INFO [com.crisil.www.core.content.header.SearchAutoSugge  stion] In SearchAutoSuggestion,methode getSuggestList, number of groups = 55833
+2022-03-17 15:14:44.399 INFO [com.crisil.www.core.content.header.SearchAutoSugge  stion] End : In SearchAutoSuggestion,methode getSuggestList
+2022-03-17 15:14:58.487 INFO [com.crisil.www.core.content.user.changepassword.Cr  isilChangePasswordServlet]
+ Change password after url decode activation token= lI83PCrgnT2JuF%252FL5w4dbHay  s8CxXNy1wlORmJ%252Bt2NZe6op2TT%252Fw3A7zp8d8N5oC3ctxYY1WLgAa9Vhszmx0Bw%253D%253D  
+
+2022-03-17 15:14:58.487 INFO [com.crisil.www.core.content.user.changepassword.Cr  isilChangePasswordServlet]
+ :::::::: Force change forgot password :::::::::::
+
+2022-03-17 15:14:58.488 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl] currentUser:anonymous::/home/users/L/Lj6C  xmiVWqLxR9ypJZN7
+2022-03-17 15:14:58.488 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl] inside isResult()
+2022-03-17 15:14:58.488 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl]
+ ::::forceChangePasswordAndSendMail: encrypted activationToken  =lI83PCrgnT2JuF%  252FL5w4dbHays8CxXNy1wlORmJ%252Bt2NZe6op2TT%252Fw3A7zp8d8N5oC3ctxYY1WLgAa9Vhszmx  0Bw%253D%253D :::::::
+
+2022-03-17 15:14:58.488 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl  ]
+ @@@@@@ Input  Before url decode =lI83PCrgnT2JuF%252FL5w4dbHays8CxXNy1wlORmJ%252  Bt2NZe6op2TT%252Fw3A7zp8d8N5oC3ctxYY1WLgAa9Vhszmx0Bw%253D%253D   @@@@@@@@@@@
+
+2022-03-17 15:14:58.488 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl  ]
+ ###### Input After  url decode = lI83PCrgnT2JuF/L5w4dbHays8CxXNy1wlORmJ+t2NZe6o  p2TT/w3A7zp8d8N5oC3ctxYY1WLgAa9Vhszmx0Bw==  ##########
+
+2022-03-17 15:14:58.489 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl  ]
+ ************ Input  after decryption =vikas.ts@icfnext.com:fa12e4ba-3c39-4d3b-9  9d2-f8d3d4df89d9   ****************
+
+2022-03-17 15:14:58.489 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl]
+ :::: forceChangePasswordAndSendMail: decrypted activationToken  =vikas.ts@icfne  xt.com:fa12e4ba-3c39-4d3b-99d2-f8d3d4df89d9 :::::::
+
+2022-03-17 15:14:58.489 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl]
+::::::: Logged in UsedId=anonymous and requested userId=vikas.ts@icfnext.com :::  :::::::
+
+2022-03-17 15:14:58.490 INFO [com.crisil.www.core.content.user.usermanagement.im  pl.CrisilJcrUserManagementServiceImpl] result:false
+2022-03-17 15:15:00.001 INFO [com.crisil.www.commons.core.solr.service.SolrServi  ceImpl] queries in findDocuments method=null
+2022-03-17 15:15:00.001 INFO [com.crisil.www.commons.core.schedulers.paymentsche  duler.PaymentStatusScheduler] start : methode run in PaymentStatusScheduler
+2022-03-17 15:15:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdate  Scheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-17 15:15:00.001 INFO [com.crisil.www.commons.core.schedulers.paymentsche  duler.PaymentStatusScheduler] PaymentStatusScheduler is Failed
+2022-03-17 15:15:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdate  Scheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-17 15:15:00.001 INFO [com.crisil.www.commons.core.schedulers.paymentsche  duler.PaymentStatusScheduler] end : methode run in PaymentStatusScheduler, statu  s = false

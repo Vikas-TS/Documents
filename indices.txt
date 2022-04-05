@@ -1,0 +1,67 @@
+REVERSE KT session on the Indices Automation
+we are covering with 3 concepts
+Current implementation, issues with current implementation and New implementation
+moving onto the current implementation
+overall objective of this indices automation is that Currently what ever the Indices details providing by the CRISIL are uploaded via excel files and then we are imported to AEM before rendering. 
+along with this  At this point of time CRISIL also wants to do API integrations to increase the efficiency.
+
+in the live site of indices page you can see all the text and here text are all configurable  through Rich Text Editor
+
+you can see the image, which is having the graph and for this graph data is getting fetched from imported graph and table excel file.
+ so these graphs and table excel based on the data provide by the CRISIL
+
+if we go to the Feature text it coming from node for individual indices implemented in AEM
+
+For the factsheet and historical factsheet pages we are maintaining dam structure for individual indices..
+these are the some of things about current implementation..
+
+lets see the issues in the current implementation
+coming to the issues in the current implementation in this impacting on the page load time because if any changes happens in the feature section, the change has to be done through the code base  it also takes and hold with huge data its impacting page load time and after every change we requires a  bulid because change will going to happen through the code base.
+along with this we have others issues and that will explained  by rishabh thank you
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://172.21.156.67/en/home/reset-password.html?activationToken=lI83PCrgnT2JuF%25252FL5w4dbL9wCCEbqbDuGVD9b5ZL6Setk%25252Fbc6xMAJ19UALi4H%25252ByKm5Ntt9%25252BUy%25252B0G9h%25252FnntA1NQ%25253D%25253D&redirectionPage=http://172.21.156.67/crx/de/index.jsp
+
+
+http://172.21.156.67/en/home/reset-password.html?activationToken=lI83PCrgnT2JuF%25252FL5w4dbHvLzJPGO1q0fB%25252Fz3rF3OoYv4%25252BKydakLYcoZF5gWqZy1TjMJnLmd8XHN3Ke%25252FTO3aBA%25253D%25253D&redirectionPage=/content/crisil/en/home.html
+
+
+
+vikasone123@gmail.com
+
+
+17ea7456-d485-426f-8afd-d34998dec3e2
+17ea7456-d485-426f-8afd-d34998dec3e2 
+
+2022-03-12 15:52:15.560 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl]
+ ************ Input  after decryption =vikas.ts@icfnext.com:17ea7456-d485-426f-8afd-d34998dec3e2   ****************
+
+
+Test@123
+
+
+
+
+
+
+
+

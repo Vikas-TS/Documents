@@ -1,0 +1,6 @@
+1) On click of reset password link in the mail, user seems to be already logged in and he can perform all activities without having to reset the password
+2) Redirection page link is set to the same referrer URL instead of the homepage after 2 retries
+3) Permission denied 403 occurs while trying to use forgot password in a particular scenario for which we need to identify the steps to reproduce - /bin/crisil/resetpassword.resetPwd.json
+
+
+http://172.21.156.67/content/crisil/en/home/reset-password.html?activationToken=lI83PCrgnT2JuF%252FL5w4dbC9eOBZZlHTHj6aTylReJJZe3iX%252BcY%252F5hbiOipIjiRaSYYhRqf7ewFSZuDpa0itaCw%253D%253D&redirectionPage=/content/crisil/en/home.html

@@ -1,0 +1,94 @@
+admin
+Crisil321
+_____________________________________________________
+Jira Login
+user : Pandurang.jadhav@icfnext.com
+Password : Pandu@8166
+_____________________________________________________
+----------------------------------------------------------------------------------------
+
+UAT 
+UAT Author 
+http://172.21.156.65:4502/crx/de/index.jsp
+_____________________________________________________
+
+UAT Publisher 
+http://172.21.156.66:4503/crx/de/index.jsp
+_____________________________________________________
+
+UAT Dispatcher 
+http://172.21.156.67/
+_____________________________________________________
+
+UAT Solr
+http://172.21.156.68:8983/solr/#/
+_____________________________________________________
+----------------------------------------------------------------------------------------
+
+Prod
+Prod Author
+http://172.21.153.206:4502/crx/de/index.jsp
+_____________________________________________________
+
+Publisher 
+http://172.21.153.203:4503/crx/de/index.jsp
+_____________________________________________________
+
+https://172.21.153.204/
+_____________________________________________________
+----------------------------------------------------------------------------------------
+
+Instance 
+QA Author
+http://172.21.156.62:4502/crx/de
+_____________________________________________________
+
+QA Publisher 
+http://172.21.156.63:4503/crx/de/index.jsp
+_____________________________________________________
+
+QA Dispatcher 
+http://172.21.156.64/en/home.html
+_____________________________________________________
+
+QA Solr
+http://172.21.156.63:8983/solr/#/
+_____________________________________________________
+----------------------------------------------------------------------------------------
+
+
+mvn clean install -Dhost=localhost -Dport=4502 -Duser=admin -Dpassword=admin -Dbuild.version=2.4.251 -P ui.apps,commons
+
+
+
+
+new build
+mvn clean install -Dhost=localhost -Dport=4502 -Duser=admin -Dpassword=admin -Dbuild.version=2.4.253 -P ui.apps,commons
+
+
+
+
+git branch  --all
+
+git fetch
+.....
+git checkout <branch_name>
+git status
+git checkout - b "<new_branch_name> [creating new branch]
+git pull origin <branch_name> [pull request]
+git add . [add the changes to the branch]
+git commit  -m  "message"
+git push origin <branch_name> [ push the changes to the branch]
+
+
+
+
+
+onclick="function hi(){document.location.reload()};hi()"
+
+
+new branch
+issue/forgot_password_fixing_UAT
+
+
+

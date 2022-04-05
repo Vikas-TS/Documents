@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"></script>
+</head>
+
+<body>
+    <table border='1' id="myTable">
+        <tr>
+            <th>Id</th>
+            <th>Product Name</th>
+            <th>Description</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Moto G</td>
+            <td>Moto G next generation smart phone</td>
+            <td><button class="btnSelect">Select</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Iphone SE</td>
+            <td>Iphone laucnhed new phone bosy of 5s with feature of 6s</td>
+            <td><button class="btnSelect">Select</button></td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Sony z3</td>
+            <td>This is waterproof, well designed, etc</td>
+            <td><button class="btnSelect">Select</button></td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Moto X Play</td>
+            <td>Another class product from Moto G Family</td>
+            <td><button class="btnSelect">Select</button></td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Samsung S7</td>
+            <td>Best smart phone, nice UI etc.</td>
+            <td><button class="btnSelect">Select</button></td>
+        </tr>
+    </table>
+    <script>
+        $(document).ready(function() {
+
+            // code to read selected table row cell data (values).
+            $("#myTable").on('click', '.btnSelect', function(tableID, filename) {
+                // get the current row
+                var currentRow = $(this).closest("tr");
+                var downloadLink;
+                var dataType = "application/vnd.ms-excel";
+                var tableSelect = document.getElementById(tableID);
+                var tableHTML = tableSelect.outerHTML.replace(/ /g, "%20");
+                // Specify file name
+                filename = filename ? filename + ".xls" : "excel_data.xls";
+
+                // Create download link element
+                downloadLink = document.createElement("a");
+
+                document.body.appendChild(downloadLink);
+                // Create a link to the file
+                downloadLink.href = "data:" + dataType + ", " + tableHTML;
+
+                // Setting the file name
+                downloadLink.download = filename;
+
+                //triggering the function
+                downloadLink.click();
+            });
+        });
+    </script>
+</body>
+
+</html>

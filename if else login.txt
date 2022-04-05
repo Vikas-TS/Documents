@@ -1,0 +1,27 @@
+ if(response.errorCode == 3)
+                                {
+                                    showResetPasswordPopUp();// resetpasswordpopUp(lightBoxresetContentNew);
+                                    var htmlText = '';
+                                    htmlText += '<div class="form-error-msg">';
+                                    htmlText += '<h3><span class="errorIcon"></span></span>Error</h3>';
+                                    htmlText += '<p>New Password should not match with last three passwords, Please try again</p>';
+                                    htmlText += '<div class="btn-wrap okupdate-btn">';
+                                    htmlText += '<a href="#" class="forward-arrow">Ok</a>';
+                                    htmlText += '</div>';
+                                    htmlText += '</div>';
+                                    $('.lbContent').append(htmlText);
+                                    showResetPasswordPopUp();
+
+                                }else  if(response.success){
+                                    var htmlText = '';
+                                    htmlText += '<div class="form-success-msg">';
+                                    htmlText += '<h3><span class="sucessIcon"></span></span>Success</h3>';
+                                    htmlText += '<p>Thank you! you have successfully reset your password.</p>';
+                                    htmlText += '<div class="btn-wrap okupdate-btn">';
+                                    htmlText += '<a href="#" class="forward-arrow">Ok</a>';
+                                    htmlText += '</div>';
+                                    htmlText += '</div>';
+                                    $('.lbContent').append(htmlText);
+                                    showResetPasswordPopUp();
+                                    window.location.href = redirectionPage;
+                                }

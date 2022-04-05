@@ -1,0 +1,62 @@
+<script>
+
+$(document).click(function(){
+
+li.sub-nav-link:nth-child(n)";
+
+li.sub-nav-inner-link:nth-child(n)";
+});
+
+</script>
+
+
+
+
+
+class="${properties.verticalLine} ? "sub-nav-inner-link" : " "}
+
+<a class="${multiIeterator.careerlink ? 'careerlinkhovr' : ''}"
+
+
+
+com.crisil.www.core.content.helpers.LinkModel
+
+
+
+
+
+
+
+
+<verticalLine
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                        deleteHint="{Boolean}true"
+                        fieldDescription="Check to enable vertical line"
+                        ignoreData="{Boolean}false"
+                        name="./vertical"
+                        text="Enable vertical column line"
+                        value="_blank"/>
+
+<vertical
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/foundation/form/checkbox"
+                                                        deleteHint="{Boolean}true"
+                                                        fieldDescription="Check to enable vertical line"
+                                                        ignoreData="{Boolean}false"
+                                                        name="./verticalLine"
+                                                        text="Vertical Line"
+                                                        value="_blank"/>
+
+
+
+
+
+
+
+
+
+
+
+
+

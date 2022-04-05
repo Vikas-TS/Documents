@@ -1,0 +1,8 @@
+var resultSetInfo = response.replace('[','').replace(']','').split(', ');      ------- previous line no.34
+
+var resultSetInfo = response.replace('[','').replace(']','');         ---------- newest line no. 34 that is replace old one
+
+
+
+var resultSetInfo = response.replace('[','').replace(']','').split(', ');      ------- previous line no.114
+var resultSetInfo = response.replace('[','').replace(']','');        ---------- newest line no. 114 that is replace old one

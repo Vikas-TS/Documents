@@ -1,0 +1,232 @@
+Log Name:      System
+Source:        Microsoft-Windows-DistributedCOM
+Date:          05-04-2022 11:06:08
+Event ID:      10016
+Task Category: None
+Level:         Warning
+Keywords:      Classic
+User:          SYSTEM
+Computer:      ICF4P8LFB3.ICFI.icfconsulting.com
+Description:
+The application-specific permission settings do not grant Local Launch permission for the COM Server application with CLSID 
+Windows.SecurityCenter.WscBrokerManager
+ and APPID 
+Unavailable
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-DistributedCOM" Guid="{1B562E86-B7AA-4131-BADC-B6F3A001407E}" EventSourceName="DCOM" />
+    <EventID Qualifiers="0">10016</EventID>
+    <Version>0</Version>
+    <Level>3</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2022-04-05T05:36:08.8532578Z" />
+    <EventRecordID>387129</EventRecordID>
+    <Correlation ActivityID="{94128602-d2bf-4e01-a646-a93c2afcfbd9}" />
+    <Execution ProcessID="1328" ThreadID="1652" />
+    <Channel>System</Channel>
+    <Computer>ICF4P8LFB3.ICFI.icfconsulting.com</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="param1">application-specific</Data>
+    <Data Name="param2">Local</Data>
+    <Data Name="param3">Launch</Data>
+    <Data Name="param4">Windows.SecurityCenter.WscBrokerManager</Data>
+    <Data Name="param5">Unavailable</Data>
+    <Data Name="param6">NT AUTHORITY</Data>
+    <Data Name="param7">SYSTEM</Data>
+    <Data Name="param8">S-1-5-18</Data>
+    <Data Name="param9">LocalHost (Using LRPC)</Data>
+    <Data Name="param10">Unavailable</Data>
+    <Data Name="param11">Unavailable</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-DistributedCOM
+Date:          05-04-2022 11:06:08
+Event ID:      10016
+Task Category: None
+Level:         Warning
+Keywords:      Classic
+User:          SYSTEM
+Computer:      ICF4P8LFB3.ICFI.icfconsulting.com
+Description:
+The application-specific permission settings do not grant Local Launch permission for the COM Server application with CLSID 
+Windows.SecurityCenter.SecurityAppBroker
+ and APPID 
+Unavailable
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-DistributedCOM" Guid="{1B562E86-B7AA-4131-BADC-B6F3A001407E}" EventSourceName="DCOM" />
+    <EventID Qualifiers="0">10016</EventID>
+    <Version>0</Version>
+    <Level>3</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2022-04-05T05:36:08.8512631Z" />
+    <EventRecordID>387128</EventRecordID>
+    <Correlation ActivityID="{46fb82ed-04eb-4ca7-927b-78b6298fe5f8}" />
+    <Execution ProcessID="1328" ThreadID="2364" />
+    <Channel>System</Channel>
+    <Computer>ICF4P8LFB3.ICFI.icfconsulting.com</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="param1">application-specific</Data>
+    <Data Name="param2">Local</Data>
+    <Data Name="param3">Launch</Data>
+    <Data Name="param4">Windows.SecurityCenter.SecurityAppBroker</Data>
+    <Data Name="param5">Unavailable</Data>
+    <Data Name="param6">NT AUTHORITY</Data>
+    <Data Name="param7">SYSTEM</Data>
+    <Data Name="param8">S-1-5-18</Data>
+    <Data Name="param9">LocalHost (Using LRPC)</Data>
+    <Data Name="param10">Unavailable</Data>
+    <Data Name="param11">Unavailable</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-DistributedCOM
+Date:          05-04-2022 11:06:08
+Event ID:      10016
+Task Category: None
+Level:         Warning
+Keywords:      Classic
+User:          SYSTEM
+Computer:      ICF4P8LFB3.ICFI.icfconsulting.com
+Description:
+The application-specific permission settings do not grant Local Launch permission for the COM Server application with CLSID 
+Windows.SecurityCenter.WscDataProtection
+ and APPID 
+Unavailable
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-DistributedCOM" Guid="{1B562E86-B7AA-4131-BADC-B6F3A001407E}" EventSourceName="DCOM" />
+    <EventID Qualifiers="0">10016</EventID>
+    <Version>0</Version>
+    <Level>3</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8080000000000000</Keywords>
+    <TimeCreated SystemTime="2022-04-05T05:36:08.8492689Z" />
+    <EventRecordID>387127</EventRecordID>
+    <Correlation ActivityID="{251b0b85-cb54-4e8b-9e65-22f1f44fe45d}" />
+    <Execution ProcessID="1328" ThreadID="1368" />
+    <Channel>System</Channel>
+    <Computer>ICF4P8LFB3.ICFI.icfconsulting.com</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="param1">application-specific</Data>
+    <Data Name="param2">Local</Data>
+    <Data Name="param3">Launch</Data>
+    <Data Name="param4">Windows.SecurityCenter.WscDataProtection</Data>
+    <Data Name="param5">Unavailable</Data>
+    <Data Name="param6">NT AUTHORITY</Data>
+    <Data Name="param7">SYSTEM</Data>
+    <Data Name="param8">S-1-5-18</Data>
+    <Data Name="param9">LocalHost (Using LRPC)</Data>
+    <Data Name="param10">Unavailable</Data>
+    <Data Name="param11">Unavailable</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Intel-SST-OED
+Date:          05-04-2022 11:05:28
+Event ID:      19
+Task Category: This task logs error codes to system event log.
+Level:         Information
+Keywords:      
+User:          LOCAL SERVICE
+Computer:      ICF4P8LFB3.ICFI.icfconsulting.com
+Description:
+Check the remaining resource budget. Module exceeds resource budget, failed to AllocateFwCps, STATUS = Insufficient system resources exist to complete the API..
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Intel-SST-OED" Guid="{6f789161-d86f-4063-9e66-41f26b5da238}" />
+    <EventID>19</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>6</Task>
+    <Opcode>20</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2022-04-05T05:35:28.9897545Z" />
+    <EventRecordID>387126</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="8440" ThreadID="8792" />
+    <Channel>System</Channel>
+    <Computer>ICF4P8LFB3.ICFI.icfconsulting.com</Computer>
+    <Security UserID="S-1-5-19" />
+  </System>
+  <EventData>
+    <Data Name="message">Module exceeds resource budget, failed to AllocateFwCps</Data>
+    <Data Name="status">3221225626</Data>
+  </EventData>
+</Event>
+
+Log Name:      System
+Source:        Microsoft-Windows-DNS-Client
+Date:          05-04-2022 11:05:14
+Event ID:      8017
+Task Category: (1028)
+Level:         Warning
+Keywords:      
+User:          NETWORK SERVICE
+Computer:      ICF4P8LFB3.ICFI.icfconsulting.com
+Description:
+The system failed to register host (A or AAAA) resource records for network adapter
+with settings:
+
+           Adapter Name : {3B1F0408-283D-4AD3-8C03-E27F5622626F}
+           Host Name : ICF4P8LFB3
+           Primary Domain Suffix : ICFI.icfconsulting.com
+           DNS server list :
+             	192.168.0.24
+           Sent update to server : 204.74.66.2:53
+           IP Address(es) :
+             192.168.0.102
+
+Either the DNS server does not support the DNS dynamic update protocol or the authoritative zone for the specified DNS domain name does not accept dynamic updates.
+
+To register the DNS host (A or AAAA) resource records using the specific DNS domain name and IP addresses for this adapter, contact your DNS server or network systems administrator.
+Event Xml:
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-DNS-Client" Guid="{1c95126e-7eea-49a9-a3fe-a378b03ddb4d}" />
+    <EventID>8017</EventID>
+    <Version>0</Version>
+    <Level>3</Level>
+    <Task>1028</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x4000000000000000</Keywords>
+    <TimeCreated SystemTime="2022-04-05T05:35:14.8701992Z" />
+    <EventRecordID>387125</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="1912" ThreadID="9060" />
+    <Channel>System</Channel>
+    <Computer>ICF4P8LFB3.ICFI.icfconsulting.com</Computer>
+    <Security UserID="S-1-5-20" />
+  </System>
+  <EventData>
+    <Data Name="AdapterName">{3B1F0408-283D-4AD3-8C03-E27F5622626F}</Data>
+    <Data Name="HostName">ICF4P8LFB3</Data>
+    <Data Name="AdapterSuffixName">ICFI.icfconsulting.com</Data>
+    <Data Name="DnsServerList">	192.168.0.24</Data>
+    <Data Name="Sent UpdateServer">204.74.66.2:53</Data>
+    <Data Name="Ipaddress">192.168.0.102</Data>
+    <Data Name="ErrorCode">9004</Data>
+  </EventData>
+</Event>

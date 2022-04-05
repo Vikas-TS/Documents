@@ -1,0 +1,17 @@
+text-overflow: ellipsis;
+white-space: wrap
+text-decoration-line: overline;
+"text-align-last: justify;"
+align="justify"
+text-align:right
+word-break: break-all;
+overflow-wrap: break-word;
+li:before{
+  position:aboslute;
+  margin-right:1em;
+  content:'-';
+}
+
+
+
+&&( $('.csfr-token').length))

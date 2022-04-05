@@ -1,0 +1,49 @@
+{
+"fName" : "ajay",
+"lName" : "anil",
+"startDate" : "2021-07-19",
+"endDate" : "2030-07-27",
+"department" : "development",
+"pan" : "ABC123",
+"designation" : "Analyst",
+"dob" : "1990-04-24",
+"status" : "active",
+"reportingManager" : "veera",
+"gender" : "male",
+"bloddGroup" : "A+",
+"address" : "Bangalore",
+"qualification" : "B.E",
+"dependents" : "XYZ"
+}
+
+
+
+
+
+/* Access Token API Constant */
+public static final String DATA = "data";
+public static final String GRANT_TYPE = "grant_type";
+public static final String REFRESH_TOKEN = "refresh_token";
+public static final String CLIENT_ID = "client_id";
+public static final String CLIENT_SECRET = "client_secret";
+
+public static final String INDICES_GRANT_TYPE = "grant_type";
+public static final String INDICES_CLIENT_ID = "client_id";
+public static final String INDICES_CLIENT_SECRET = "client_secret";
+public static final String INDICES_USER_NAME = "user_name";
+public static final String INDICES_PASSWORD = "password";
+public static final String INDICES_REFRESH_TOKEN = "refresh_token";
+
+public static final int CONNECTION_TIMEOUT = 10000;
+public static final int SO_TIMEOUT = 15000;
+public static final int MAX_TOTAL_CONNECTIONS = 1000;
+public static final int DEFAULT_MAX_CONNECTIONS_PER_HOST = 1000;
+public static final String INDICES_CONTENT_TYPE_JSON = "application/json; charset=UTF-8";
+public static final String INDICES_CHARSET_UTF_8 = "UTF-8";
+
+/* Indices Automation Response Constant */
+
+
+
+
+18004194000

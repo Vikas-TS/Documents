@@ -1,0 +1,427 @@
+2022-03-12 08:56:00.465 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, ou                                                                             rEventsLink = http://172.21.156.67/en/home/events.html
+2022-03-12 08:56:00.465 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, mu                                                                             tualFundLink = http://172.21.156.67/en/home/what-we-do/financial-products/mf-ran                                                                             king.html
+2022-03-12 08:56:00.465 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, cr                                                                             isilHomeLink = http://172.21.156.67/en/home.html
+2022-03-12 08:56:00.465 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, cr                                                                             isilTvLink = http://172.21.156.67/en/home/our-analysis/crisil-tv.html
+2022-03-12 08:56:00.600 INFO [com.crisil.www.commons.core.jobs.email.consumers.E                                                                             mailJobConsumer] EMAIL was  sent to ....[vikas.ts@icfnext.com]
+2022-03-12 08:56:00.600 INFO [com.crisil.www.commons.core.jobs.email.consumers.E                                                                             mailJobConsumer] EMAIL was  sent to ....[vikas.ts@icfnext.com]
+2022-03-12 08:57:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-12 08:57:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-12 08:58:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-12 08:58:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-12 08:58:57.260 INFO [com.crisil.www.core.content.header.Header]
+***********  Entered into Header : init() *****************
+
+2022-03-12 08:58:57.265 INFO [com.crisil.www.core.content.header.Header]
+ *********** Exited from Header : init() ****************
+
+2022-03-12 08:59:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-12 08:59:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-12 08:59:00.529 INFO [com.crisil.www.commons.core.solr.masterall.impl.So                                                                             lrMasterDataSyncImpl]  ***** Entered into SolrMasterDataSyncImpl:searchForAutoSu                                                                             ggestion *******
+2022-03-12 08:59:00.529 INFO [com.crisil.www.commons.core.solr.service.SolrServi                                                                             ceImpl] queries in findDocuments method=[*:*]
+2022-03-12 08:59:00.571 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl]
+verifyActivationCode before decryptCode of activationToken =lI83PCrgnT2JuF%252FL                                                                             5w4dbEAFjmoHT%252BSE0XqMdRMMpgKU36DBibDc8R2xfiwJibLhMs%252B%252F%252Br6sG71ALqED                                                                             xGjPHw%253D%253D ::::::::
+
+2022-03-12 08:59:00.571 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl                                                                             ]
+ @@@@@@ Input  Before url decode =lI83PCrgnT2JuF%252FL5w4dbEAFjmoHT%252BSE0XqMdR                                                                             MMpgKU36DBibDc8R2xfiwJibLhMs%252B%252F%252Br6sG71ALqEDxGjPHw%253D%253D   @@@@@@@                                                                             @@@@
+
+2022-03-12 08:59:00.571 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl                                                                             ]
+ ###### Input After  url decode = lI83PCrgnT2JuF/L5w4dbEAFjmoHT+SE0XqMdRMMpgKU36                                                                             DBibDc8R2xfiwJibLhMs+/+r6sG71ALqEDxGjPHw==  ##########
+
+2022-03-12 08:59:00.572 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl                                                                             ]
+ ************ Input  after decryption =vikas.ts@icfnext.com:c3571063-d0bc-41b9-9                                                                             fe5-80b6bf40f2d4   ****************
+
+2022-03-12 08:59:00.572 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl]
+verifyActivationCode after decryptCode of activationToken =vikas.ts@icfnext.com:                                                                             c3571063-d0bc-41b9-9fe5-80b6bf40f2d4 ::::::::
+
+2022-03-12 08:59:00.582 INFO [com.crisil.www.core.content.header.Header]
+***********  Entered into Header : init() *****************
+
+2022-03-12 08:59:00.586 INFO [com.crisil.www.core.content.header.Header]
+ *********** Exited from Header : init() ****************
+
+2022-03-12 08:59:07.864 INFO [com.crisil.www.core.content.header.SearchAutoSugge                                                                             stion] Start : In SearchAutoSuggestion,methode getSuggestList
+2022-03-12 08:59:07.864 INFO [com.crisil.www.core.content.header.SearchAutoSugge                                                                             stion] In SearchAutoSuggestion,methode getSuggestList, number of groups = 55831
+2022-03-12 08:59:12.879 INFO [com.crisil.www.core.content.header.SearchAutoSugge                                                                             stion] End : In SearchAutoSuggestion,methode getSuggestList
+2022-03-12 08:59:23.428 INFO [com.crisil.www.core.content.header.Header]
+***********  Entered into Header : init() *****************
+
+2022-03-12 08:59:23.432 INFO [com.crisil.www.core.content.header.Header]
+ *********** Exited from Header : init() ****************
+
+2022-03-12 08:59:25.264 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl]
+verifyActivationCode before decryptCode of activationToken =lI83PCrgnT2JuF%252FL                                                                             5w4dbFHY9o1YqjCBtMrcaT5HjDqk5XLvmJGIbND5FmX0R%252FJ8QA66XOdjLz%252BbisO8KC2GqQ%2                                                                             53D%253D ::::::::
+
+2022-03-12 08:59:25.264 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl                                                                             ]
+ @@@@@@ Input  Before url decode =lI83PCrgnT2JuF%252FL5w4dbFHY9o1YqjCBtMrcaT5HjD                                                                             qk5XLvmJGIbND5FmX0R%252FJ8QA66XOdjLz%252BbisO8KC2GqQ%253D%253D   @@@@@@@@@@@
+
+2022-03-12 08:59:25.264 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl                                                                             ]
+ ###### Input After  url decode = lI83PCrgnT2JuF/L5w4dbFHY9o1YqjCBtMrcaT5HjDqk5X                                                                             LvmJGIbND5FmX0R/J8QA66XOdjLz+bisO8KC2GqQ==  ##########
+
+2022-03-12 08:59:25.266 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl                                                                             ]
+ ************ Input  after decryption =vikas.ts@icfnext.com:74848175-a85f-4013-8                                                                             051-1ec5d7365514   ****************
+
+2022-03-12 08:59:25.266 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl]
+verifyActivationCode after decryptCode of activationToken =vikas.ts@icfnext.com:                                                                             74848175-a85f-4013-8051-1ec5d7365514 ::::::::
+
+2022-03-12 08:59:25.267 INFO [com.crisil.www.core.content.header.Header]
+***********  Entered into Header : init() *****************
+
+2022-03-12 08:59:25.274 INFO [com.crisil.www.core.content.header.Header]
+ *********** Exited from Header : init() ****************
+
+2022-03-12 08:59:25.309 ERROR [com.crisil.www.core.content.user.usermanagement.i                                                                             mpl.CrisilJcrUserManagementServiceImpl] Logged in Uservikas.ts@icfnext.com
+2022-03-12 09:00:00.001 INFO [com.crisil.www.commons.core.solr.service.SolrServi                                                                             ceImpl] queries in findDocuments method=null
+2022-03-12 09:00:00.001 INFO [com.crisil.www.commons.core.schedulers.paymentsche                                                                             duler.PaymentStatusScheduler] start : methode run in PaymentStatusScheduler
+2022-03-12 09:00:00.001 INFO [com.crisil.www.commons.core.schedulers.paymentsche                                                                             duler.PaymentStatusScheduler] PaymentStatusScheduler is Failed
+2022-03-12 09:00:00.001 INFO [com.crisil.www.commons.core.schedulers.paymentsche                                                                             duler.PaymentStatusScheduler] end : methode run in PaymentStatusScheduler, statu                                                                             s = false
+2022-03-12 09:00:00.003 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-12 09:00:00.003 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-12 09:00:00.003 INFO [com.crisil.www.ehm.core.scheduler.ErrorHealthCheck                                                                             Scheduler] Start : In ErrorHealthCheckScheduler,enable = false, timeRangeForErro                                                                             rQuery =
+2022-03-12 09:00:00.003 INFO [com.crisil.www.ehm.core.scheduler.ErrorHealthCheck                                                                             Scheduler] In ErrorHealthCheckScheduler, Error Health check Scheduler is not ena                                                                             bled.
+2022-03-12 09:00:01.269 INFO [com.crisil.www.core.content.user.changepassword.Cr                                                                             isilChangePasswordServlet]
+ Change password after url decode activation token= lI83PCrgnT2JuF%252FL5w4dbFHY                                                                             9o1YqjCBtMrcaT5HjDqk5XLvmJGIbND5FmX0R%252FJ8QA66XOdjLz%252BbisO8KC2GqQ%253D%253D                                                                             
+
+2022-03-12 09:00:01.269 INFO [com.crisil.www.core.content.user.changepassword.Cr                                                                             isilChangePasswordServlet]
+ :::::::: Force change forgot password :::::::::::
+
+2022-03-12 09:00:01.269 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] currentUser:vikas.ts@icfnext.com::/home/u                                                                             sers/U/UPNQ8u4kOW37X1oB1yK8
+2022-03-12 09:00:01.269 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] oldPasswords:[Ljava.lang.String;@5db7d476
+2022-03-12 09:00:01.270 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] oldPasswordList:12
+2022-03-12 09:00:01.270 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] oldPasswords:0w6n3FW0rWwgZtA7aToADw==
+2022-03-12 09:00:01.271 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] oldPasswords:FlOGxcDDA+BN5pTtAXcz1A==
+2022-03-12 09:00:01.273 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] oldPasswords:mnMC4eKdmLmz0gM1Zfb2Sg==
+2022-03-12 09:00:01.274 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] inside isResult()
+2022-03-12 09:00:01.274 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl]
+ ::::forceChangePasswordAndSendMail: encrypted activationToken  =lI83PCrgnT2JuF%                                                                             252FL5w4dbFHY9o1YqjCBtMrcaT5HjDqk5XLvmJGIbND5FmX0R%252FJ8QA66XOdjLz%252BbisO8KC2                                                                             GqQ%253D%253D :::::::
+
+2022-03-12 09:00:01.274 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl                                                                             ]
+ @@@@@@ Input  Before url decode =lI83PCrgnT2JuF%252FL5w4dbFHY9o1YqjCBtMrcaT5HjD                                                                             qk5XLvmJGIbND5FmX0R%252FJ8QA66XOdjLz%252BbisO8KC2GqQ%253D%253D   @@@@@@@@@@@
+
+2022-03-12 09:00:01.274 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl                                                                             ]
+ ###### Input After  url decode = lI83PCrgnT2JuF/L5w4dbFHY9o1YqjCBtMrcaT5HjDqk5X                                                                             LvmJGIbND5FmX0R/J8QA66XOdjLz+bisO8KC2GqQ==  ##########
+
+2022-03-12 09:00:01.276 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl                                                                             ]
+ ************ Input  after decryption =vikas.ts@icfnext.com:74848175-a85f-4013-8                                                                             051-1ec5d7365514   ****************
+
+2022-03-12 09:00:01.276 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl]
+ :::: forceChangePasswordAndSendMail: decrypted activationToken  =vikas.ts@icfne                                                                             xt.com:74848175-a85f-4013-8051-1ec5d7365514 :::::::
+
+2022-03-12 09:00:01.276 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl]
+::::::: Logged in UsedId=vikas.ts@icfnext.com and requested userId=vikas.ts@icfn                                                                             ext.com ::::::::::
+
+2022-03-12 09:00:01.276 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] isSuccesstrue
+2022-03-12 09:00:01.285 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, lo                                                                             go = http://172.21.156.67/etc/designs/crisil-www/clientlib-all/images/mailer/CRI                                                                             SIL-logo.jpg
+2022-03-12 09:00:01.285 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, fb                                                                             Logo = http://172.21.156.67/etc/designs/crisil-www/clientlib-all/images/mailer/f                                                                             acebook-n.png
+2022-03-12 09:00:01.285 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, tw                                                                             itterLogo = http://172.21.156.67/etc/designs/crisil-www/clientlib-all/images/mai                                                                             ler/twitter-n.png
+2022-03-12 09:00:01.285 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, li                                                                             Logo = http://172.21.156.67/etc/designs/crisil-www/clientlib-all/images/mailer/l                                                                             inkedin-n.png
+2022-03-12 09:00:01.285 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, yo                                                                             utubeLogo = http://172.21.156.67/etc/designs/crisil-www/clientlib-all/images/mai                                                                             ler/youtube-n.png
+2022-03-12 09:00:01.285 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, ou                                                                             rAnalysisLink = http://172.21.156.67/en/home/our-analysis.html
+2022-03-12 09:00:01.285 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, ou                                                                             rEventsLink = http://172.21.156.67/en/home/events.html
+2022-03-12 09:00:01.285 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, mu                                                                             tualFundLink = http://172.21.156.67/en/home/what-we-do/financial-products/mf-ran                                                                             king.html
+2022-03-12 09:00:01.286 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, cr                                                                             isilHomeLink = http://172.21.156.67/en/home.html
+2022-03-12 09:00:01.286 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, cr                                                                             isilTvLink = http://172.21.156.67/en/home/our-analysis/crisil-tv.html
+2022-03-12 09:00:01.331 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] result:true
+2022-03-12 09:00:01.525 INFO [com.crisil.www.commons.core.jobs.email.consumers.E                                                                             mailJobConsumer] EMAIL was  sent to ....[vikas.ts@icfnext.com]
+2022-03-12 09:01:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdateScheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-12 09:01:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdateScheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+^C
+[icfuser@mumchaem09 logs]$ ^C
+[icfuser@mumchaem09 logs]$ [icfuser@mumchaem09 logs]$ tail -f crisil.log
+2022-03-12 08:56:00.465 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, cr                                                                             isilHomeLink = http://172.21.156.67/en/home.html
+2022-03-12 08:56:00.465 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, cr                                                                             isilTvLink = http://172.21.156.67/en/home/our-analysis/crisil-tv.html
+2022-03-12 08:56:00.600 INFO [com.crisil.www.commons.core.jobs.email.consumers.E                                                                             mailJobConsumer] EMAIL was  sent to ....[vikas.ts@icfnext.com]
+2022-03-12 08:56:00.600 INFO [com.crisil.www.commons.core.jobs.email.consumers.E                                                                             mailJobConsumer] EMAIL was  sent to ....[vikas.ts@icfnext.com]
+2022-03-12 08:57:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-12 08:57:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-12 08:58:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-12 08:58:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-12 08:58:57.260 INFO [com.crisil.www.core.content.header.Header]
+***********  Entered into Header : init() *****************
+
+bash: [icfuser@mumchaem09: command not found...
+2022-03-12 08:58:57.265 INFO [com.crisil.www.core.content.header.Header]
+ *********** Exited from Header : init() ****************
+
+2022-03-12 08:59:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+2022-03-12 08:59:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+2022-03-12 08:59:00.529 INFO [com.crisil.www.commons.core.solr.masterall.impl.So                                                                             lrMasterDataSyncImpl]  ***** Entered into SolrMasterDataSyncImpl:searchForAutoSu                                                                             ggestion *******
+2022-03-12 08:59:00.529 INFO [com.crisil.www.commons.core.solr.service.S[icfuser@mumchaem09 logs]$ 2022-03-12 08:56:00.465 INFO [com.crisil.www.core.content.                           pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, ou                                                                             rEventsLink = http://172.21.156.67/en/home/events.html
+f
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:56:00.465 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, mu                                                                             tualFundLink = http://172.21.156.67/en/home/what-we-do/financial-products/mf-ran                                                                             king.html
+
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:56:00.465 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, cr                                                                             isilHomeLink = http://172.21.156.67/en/home.html
+#
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:56:00.465 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceImpl, cr                                                                             isilTvLink = http://172.21.156.67/en/home/our-analysis/crisil-tv.html
+
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:56:00.600 INFO [com.crisil.www.commons.core.jobs.email.consumers.E                                                                             mailJobConsumer] EMAIL was  sent to ....[vikas.ts@icfnext.com]
+5
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:56:00.600 INFO [com.crisil.www.commons.core.jobs.email.consumers.E                                                                             mailJobConsumer] EMAIL was  sent to ....[vikas.ts@icfnext.com]
+N
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:57:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:57:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+4
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:58:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+s
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:58:00.001 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+K
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:58:57.260 INFO [com.crisil.www.core.content.header.Header]
+H
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ ***********  Entered into Header : init() *****************
+-bash: syntax error near unexpected token `('
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:58:57.265 INFO [com.crisil.www.core.content.header.Header]
+
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$  *********** Exited from Header : init() ****************
+-bash: syntax error near unexpected token `('
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Stared----------
+
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+a
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:00.529 INFO [com.crisil.www.commons.core.solr.masterall.impl.So                                                                             lrMasterDataSyncImpl]  ***** Entered into SolrMasterDataSyncImpl:searchForAutoSu                                                                             ggestion *******
+
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:00.529 INFO [com.crisil.www.commons.core.solr.service.SolrServi                                                                             ceImpl] queries in findDocuments method=[*:*]
+e
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:00.571 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl]
+
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ verifyActivationCode before decryptCode of
+w
+bash: verifyActivationCode: command not found...
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:00.571 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl                                                                             ]
+u
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$  @@@@@@ Input  Before url decode =lI83PCrgnT2JuF%252FL5w4dbEAFjmoHT%252BSE0XqMdR                                                                             MMpgKU36DBibDc8R2xfiwJibLhMs%252B%252F%252Br6sG71ALqEDxGjPHw%253D%253D   @@@@@@@                                                                             @@@@
+
+bash: @@@@@@: command not found...
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:00.571 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl                                                                             ]
+c
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$  ###### Input After  url decode = lI83PCrgnT2JuF/L5w4dbEAFjmoHT+SE0XqMdRMMpgKU36                                                                             DBibDc8R2xfiwJibLhMs+/+r6sG71ALqEDxGjPHw==  ###
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:00.572 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl                                                                             ]
+
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$  ************ Input  after decryption =vikas.ts@icfnext.com:c3571063-d0bc-41b9-9                                                                             fe5-80b6bf40f2d4   ****************
+d
+bash: access.log: command not found...
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:00.572 INFO
+[
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ verifyActivationCode after decryptCode of activationToken =vikas.ts@icfnext.com:                                                                             c3571063-d0bc-41b9-9fe5-80b6bf40f2d4 ::::::::
+Q
+bash: verifyActivationCode: command not found...
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:5
+0
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ ***********  Entered into Header : init() *****************
+-bash: syntax error near unexpected token `('
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:00.586 INFO [com.crisil.www.core.content.header.Header]
+
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$  *********** Exited from Header : init() ****************
+-bash: syntax error near unexpected token `('
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:07.864 IN
+
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:07.864 INFO [com.crisil.www.core.content.header.SearchAutoSugge                                                                             stion] In SearchAutoSuggestion,methode getSuggestList, number of groups =
+0
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:12.879 INFO [com.crisil.www.core.content.header.SearchAutoSugge                                                                             stion] End : In SearchAutoSuggestion,methode getSuggestList
+D
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 14
+5
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ ***********  Entered into Header : init() *****************
+-bash: syntax error near unexpected token `('
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:23.432 INFO [com.crisil.www.core.content.header.Header]
+
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$  *********** Exited from Header : init() ****************
+-bash: syntax error near unexpected token `('
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:25.264 INFO [com.cris
+
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ verifyActivationCode before decryptCode of activationToken =lI83PCrgnT2JuF%252FL                                                                             5w4dbFHY9o1YqjCBtMrcaT5HjDqk5XLvmJGIbND5FmX0R%252FJ8QA66XOdjLz%252BbisO8K
+b
+bash: verifyActivationCode: command not found...
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:25.264 INFO [com.crisil.www.commons.core.aes.impl.AESH
+H
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$  @@@@@@ Input  Before url decode =lI83PCrgnT2JuF%252FL5w4dbFHY9o1YqjCBtMrcaT5HjD                                                  
+
+bash: @@@@@@: command not found...
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:25.264 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl                                                                             ]
+]
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$  ###### Input After  url decode = lI83PCrgnT2JuF/L5w4dbFHY9o1YqjCBtMrcaT5HjDqk5X
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:25.266 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl                                                                             ]
+I
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$  ************ Input  after decryption =vikas.ts@icfnext.com:74848175-a
+a
+bash: access.log: command not found...
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:25.266 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl]
+]
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ verifyActivationCode after decryptCode of activationToken =vikas.ts@icfnext.com:                                                  
+
+bash: verifyActivationCode: command not found...
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:25.267 INFO [com.crisil.www.core.content.header.Header]
+g
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ ***********  Entered into Header : init() *****************
+-bash: syntax error near unexpected token `('
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:25.274 INFO [com.crisil.www.core.content.header.He
+
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$  *********** Exited from Header : init() ****************
+-bash: syntax error near unexpected token `('
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 08:59:25.309 ERROR [com.crisil.www.core.content.user.usermanagement.i                                                  
+l
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:00.001 INFO [com.crisil.w
+w
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:00.001 INFO [com.crisil.www.commons.core.schedulers.paymentsche                                                                             du
+l
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:00.001 INFO [com.crisil.www.commons.core.schedulers.paymentsche                                                                             duler.PaymentStatusScheduler] PaymentStatusScheduler is Failed
+m
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:00.001 INFO [com.crisil.www.commons.core.schedulers.paymentsche
+
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:00.003 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Sc
+l
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:00.003 INFO [com.crisil.www.core.content.user.LoginStatusUpdate                                                                             Scheduler] ----------CRISIL Login Status Update Scheduler Ended----------
+I
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:00.003 INFO [com.crisil.www.ehm.core.scheduler.ErrorHealthCheck                                                  
+
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:00.003 INFO [com.crisil.www.ehm.core.scheduler.ErrorHealthCheck                                                                             Scheduler] In ErrorHealthCheckSched
+m
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.269 INFO [
+[
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$  Change password after url decode activation token= lI83PCrgnT2JuF%252FL5w4dbFHY                                                                             9o1YqjCBtMrcaT5HjDqk5XLvmJGIbND5FmX0R%252FJ8Q
+i
+bash: Change: command not found...
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:0
+0
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$  :::::::: Force change forgot password :::::::::::
+o
+bash: ::::::::: command not found...
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.269 INFO [com.crisil.www.core.content.user.usermanagement.im
+c
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.269 INFO [com.crisil.www.core.content.user.usermanagement.im
+d
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.270 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] oldPasswordList:12
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.271 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] oldPasswords:FlOGxcD
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 15
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.274 INFO [com.crisil.www.core.content.user.usermanagement.im                                                  
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.274 INFO [com.crisil.www.core.content.user.usermanagement.im
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$  ::::forceChangePasswordAndSendMail: encrypted activationToken  =lI83PCrgnT2JuF%                                                                             252FL5w4dbFHY9o1YqjCBtMrcaT5HjDqk5XLvmJGIbND5FmX0R%252FJ8QA66XOdjLz%252Bb
+bash: ::::forceChangePasswordAndSendMail:: command not found...
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.274 INFO [com.crisil.www.commons.core.aes.impl.AESH
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$  @@@@@@ Input  Before url decode =lI83PCrgnT2JuF%252FL5w4dbFHY9o1YqjCBtMrcaT5HjD                                                  
+bash: @@@@@@: command not found...
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.274 INFO [com.crisil.www.commons.core.aes.impl.AESHelperImpl                                                                             ]
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$  ###### Input After  url decode = lI83PCrgnT2JuF/L5w4dbFHY9o1YqjCBtMrcaT5HjDqk5X                                                                             LvmJGIbND5FmX0R/J8QA66XOdjLz+bisO8KC2GqQ==  ##########
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.276 INFO [com.crisil.www.commons.core.aes.impl.AESHelperI
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$  ************ Input  after decryption =vikas.ts@icfnext.com:74848175-a
+bash: access.log: command not found...
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.276 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl]
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$  :::: forceChangePasswordAndSendMail: decrypted activationToken  =vikas.ts@icfne                                                  
+bash: ::::: command not found...
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.276 INFO [com.crisil.www.core.content.user.usermanag
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ ::::::: Logged in UsedId=vikas.ts@icfnext.com and requested userId=vikas.ts@icfn
+bash: :::::::: command not found...
+[icfuser@mumchaem09 logs]$
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.276 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.285 INFO [com.crisil.w
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.285 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.285 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagem
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.285 INFO [com.crisil.www.core.content.user.usermanagement.im
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.285 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.285 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In CrisilJcrUserManagementServiceI
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.285 INFO [com.crisil.www.core.content.user.usermanagement.im                                                  
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.285 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceIm
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.286 INFO [
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.286 INFO [com.crisil.www.core.content.user.usermanagement.im                                                                             pl.CrisilJcrUserManagementServiceImpl] In Cri
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:00:01.525 INFO [com.crisil.www.commo
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:01:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdateSc
+bash: 2022-03-12: command not found...
+[icfuser@mumchaem09 logs]$ 2022-03-12 09:01:00.000 INFO [com.crisil.www.core.content.user.LoginStatusUpdateSched
